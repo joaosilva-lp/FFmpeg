@@ -7,5 +7,5 @@ ffmpeg -i video.mkv -vf subtitles=subtitle.srt -c:v libx264 -c:a aac -strict -2 
 2) Embed subtitle into mkv<br>
 ffmpeg -i video.mkv -vf subtitles=subtitle.srt embed.mkv
 <br><br>
-3)convert mkv into mp4 with ffpmeg
+3)convert mkv into mp4 with ffpmeg<br>
 ffmpeg -i video.mkv -c:v libx264 -c:a aac -strict -2 output_video.mp4
